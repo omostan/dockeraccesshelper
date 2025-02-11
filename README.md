@@ -2,7 +2,7 @@
 
 PowerShell module that allows any user account to access the docker engine without elevated access rights.
 
-## Installation
+## Installation and Configuration
 
 ```
 Install-Module -Name dockeraccesshelper
@@ -12,7 +12,7 @@ After that import it and use it to give access to any user
 
 ```
 PS C:\Windows\system32> Import-Module dockeraccesshelper
-PS C:\Windows\system32> Add-AccountToDockerAccess "CONTOSO\PMILLER"
+PS C:\Windows\system32> Add-AccountToDockerAccess "DOMAIN\SOMOREGIE"
 ```
 
 For more details see https://www.axians-infoma.com/techblog/allow-access-to-the-docker-engine-without-admin-rights-on-windows/
