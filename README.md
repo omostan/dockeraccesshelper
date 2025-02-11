@@ -2,6 +2,8 @@
 
 PowerShell module that allows any user account to access the docker engine without elevated access rights.
 
+## Installation
+
 ```
 Install-Module -Name dockeraccesshelper
 ```
